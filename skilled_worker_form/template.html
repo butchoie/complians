@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <style>
+        @page {
+            margin: 0;
+            size: A4;
+        }
+
+        body {
+            margin: 0;
+            padding: 60px 60px 100px 60px;
+            font-family: Arial, sans-serif;
+            position: relative;
+            background-image: url('/static/HJC_Letterhead_Ireland_FINAL.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center top;
+            min-height: 100vh;
+            box-sizing: border-box;
+        }
+
+        .content {
+            position: relative;
+            z-index: 2;
+            background-color: rgba(255, 255, 255, 0.85);
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 100px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #004b89;
+            margin-bottom: 30px;
+        }
+
+        p {
+            font-size: 14px;
+            margin: 10px 0;
+        }
+
+        strong {
+            color: #333;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <h2>Skilled Worker Coversheet</h2>
+        <p><strong>Full Name:</strong> {{full_name}}</p>
+        <p><strong>Nationality:</strong> {{nationality}}</p>
+        <p><strong>Passport No:</strong> {{passport_no}}</p>
+        <p><strong>Job Title:</strong> {{job_title}}</p>
+        <p><strong>Gross Salary:</strong> {{gross_salary}}</p>
+    </div>
+</body>
+
+</html>

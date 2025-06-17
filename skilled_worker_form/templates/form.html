@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Skilled Worker Coversheet</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+</head>
+
+<body>
+    <h2>Skilled Worker Coversheet</h2>
+    <form method="POST" action="/submit">
+        <label>Full Name:</label><br>
+        <input type="text" name="full_name" required><br><br>
+
+        <label>Nationality:</label><br>
+        <input type="text" name="nationality"><br><br>
+
+        <label>Passport No:</label><br>
+        <input type="text" name="passport_no"><br><br>
+
+        <label>Job Title:</label><br>
+        <input type="text" name="job_title"><br><br>
+
+        <label>Gross Salary:</label><br>
+        <input type="text" name="gross_salary"><br><br>
+
+        <button type="submit">Generate PDF</button>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f8;
+    color: #333;
+    padding: 40px;
+    max-width: 700px;
+    margin: auto;
+}
+
+/* Headings */
+h2 {
+    text-align: center;
+    color: #095390;
+    margin-bottom: 30px;
+}
+
+/* Labels and inputs */
+label {
+    font-weight: bold;
+    margin-top: 20px;
+    display: block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+/* Submit button */
+button {
+    background-color: #095390;
+    color: rgb(255, 255, 255);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #095390;
+    color: rgb(84, 80, 122);
+    background-image: url('/static/HJC_Letterhead_Ireland_FINAL.png');
+
+}
